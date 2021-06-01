@@ -5,7 +5,7 @@ else:
     row1=row
 
 i=0
-while i<(row1/2):
+while i<(row1/2)
     pattern="*|*"*((2*i)+1)
     print(pattern.center(col,"-"))
     i=i+1
