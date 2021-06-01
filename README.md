@@ -1,2 +1,1 @@
-# python
 # psychic-disc
