@@ -1,15 +1,3 @@
-'''from collections import namedtuple
-total=0
-n=int(input())
-student = namedtuple('s','ID MARKS NAME CLASS')
-list1=[]
-for i in range(0,n):
-     ID, MARKS, NAME, CLASS = input().split()
-     s= student(ID, MARKS, NAME, CLASS)
-     total+=int(s.MARKS)
-
-print(total/n)'''
-
 import calendar
 date = input()
 month, day, year = map(int, date. split())
