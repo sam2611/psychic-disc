@@ -2,7 +2,7 @@
 import collections
 n = int(input().strip())
 
-ar = list(map(int, input().rstrip().split()))
+ar = list(map(int, input().split()))
 frequency = collections.Counter(ar)
 list1 = list(frequency.values())
 result=0
